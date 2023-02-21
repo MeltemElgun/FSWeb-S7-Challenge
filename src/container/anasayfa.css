@@ -123,44 +123,32 @@ table {
   border-spacing: 0;
 }
 
-header {
-  background-color: rgba(186, 98, 83, 0.684);
-  height: 15vh;
+.anaS {
+  margin: auto;
 }
-header h1 {
-  text-align: center;
-  font-size: 30px;
+.ana-pizza {
+  width: 90%;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+}
+.form-yazı {
+  display: block;
+  width: 20%;
+  margin: auto;
   font-family: cursive;
-  padding: 20px;
-}
-main {
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
-}
-.anasayfa,
-.iletişim {
-  text-decoration: none;
-  border-width: 2px;
+  border-width: 3px;
+  border-color: rgba(190, 184, 184, 0.492);
+  border-radius: 15px;
   border-style: solid;
-  border-color: black;
-  border-radius: 5px;
-  padding: 5px 50px;
-  color: black;
+  color: rgb(0, 5, 9);
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.ana-h3 {
+  padding: 20px;
+  background-color: rgba(227, 208, 197, 0.159);
   font-family: cursive;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

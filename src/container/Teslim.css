@@ -123,44 +123,23 @@ table {
   border-spacing: 0;
 }
 
-header {
-  background-color: rgba(186, 98, 83, 0.684);
-  height: 15vh;
+.teslim-img {
+  max-width: 90%;
+  max-height: 10%;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
 }
-header h1 {
+.teslim-p {
+  padding: 40px;
+  background-color: rgba(175, 164, 157, 0.159);
+  font-family: cursive;
   text-align: center;
-  font-size: 30px;
-  font-family: cursive;
-  padding: 20px;
 }
-main {
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
-}
-.anasayfa,
-.iletişim {
-  text-decoration: none;
-  border-width: 2px;
-  border-style: solid;
-  border-color: black;
-  border-radius: 5px;
-  padding: 5px 50px;
-  color: black;
-  font-family: cursive;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.teslim-gif {
+  display: block;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
